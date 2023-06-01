@@ -11,7 +11,7 @@ public class MainTest {
     }
     @Test
     void number_isFizzNotBuzz(){
-        int a = 3;
+        int a = 6;
         Assertions.assertEquals("fizz", Main.fizzBuzz(a));
     }
     @Test
